@@ -17,10 +17,10 @@ progress = 1;
 
 fun refresh_callback ()
   {
-    flyingman_sprite.SetImage(flyingman_image[Math.Int(progress / 0.5) % 150]);
-    progress++;
+    flyingman_sprite.SetImage(flyingman_image[progress % 150]);
+    progress += 3;
   }
-  
+
 Plymouth.SetRefreshFunction (refresh_callback);
 
 
