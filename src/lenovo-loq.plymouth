@@ -1,0 +1,51 @@
+[Plymouth Theme]
+Name=lenovo-loq
+Description=Lenovo LOQ OS theme designed by someone
+ModuleName=two-step
+
+[two-step]
+ImageDir=/usr/share/plymouth/themes/lenovo-loq
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.5
+HorizontalAlignment=.5
+VerticalAlignment=.7
+Transition=none
+TransitionDuration=0.0
+MessageBelowAnimation=true
+
+[boot-up]
+UseEndAnimation=false
+
+[shutdown]
+UseEndAnimation=false
+
+[reboot]
+UseEndAnimation=false
+
+[updates]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Installing Updates...
+SubTitle=Do not turn off your computer
+
+[system-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading System...
+SubTitle=Do not turn off your computer
+
+[firmware-upgrade]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Upgrading Firmware...
+SubTitle=Do not turn off your computer
+
+[system-reset]
+SuppressMessages=true
+ProgressBarShowPercentComplete=true
+UseProgressBar=true
+Title=Resetting System...
+SubTitle=Do not turn off your computer
