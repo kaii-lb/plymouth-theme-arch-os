@@ -1,8 +1,8 @@
 [Plymouth Theme]
 Name=lenovo-loq
 Description=Lenovo LOQ OS theme designed by someone
-ModuleName=loq
+ModuleName=two-step
 
-[loq]
+[two-step]
 ImageDir=/usr/share/plymouth/themes/lenovo-loq
 ConsoleLogBackgroundColor=0x00000000
